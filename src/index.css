@@ -7,7 +7,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #d0390d;
+  background-color: #353333;
 }
 
 nav button {
@@ -26,7 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #f0582a;
+  color: #092e66;
 }
 
 button {
@@ -44,7 +44,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom right, #f0582a, #eb0685);
+  background-image: linear-gradient(to bottom right, #051753, #051753);
 }
 
 nav li {
@@ -60,9 +60,17 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #d9390d;
+  background-color: #182e79;
 }
 
 nav button {
-  margin-top: 13px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+#mybutton button {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
 }

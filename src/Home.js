@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     const { isAuthenticated, login } = this.props.auth;
     return (
-      <div>
+      <div id="mybutton">
         <h1>Home</h1>
         {isAuthenticated() ? (
           <Link to="/profile">View Profile</Link>
